@@ -1,0 +1,156 @@
+.blockCom .pageindex .commentaire 
+{
+	border: 1px solid black;
+	margin: 15px 20px 0 20px;
+	font-weight : normal;
+	color : black;
+}
+
+.blockCom .pageindex {
+	padding-top: 25px;
+}
+
+.blockCom {
+	padding-bottom: 50px;
+}
+.blockCom .quitterPost, .topic .quitterPost {
+	margin: 5px;
+	cursor: pointer;
+	padding: 2px;
+}
+
+.blockCom .quitterPost .ui-icon,.topic .quitterPost .ui-icon {
+	margin: 5px;
+
+}
+
+.blockCom .pageindex .oddleft {
+	cursor:default;
+}
+
+.blockCom .pageindex .evenright {
+	cursor:default;
+}
+
+.commentaire .dateCom, .commentaire .pseudoCom, .commentaire .contenuCom {
+}
+.commentaire .dateCom {
+	float:right;
+	padding : 3px 15px 0px 0px;
+	font-size: 90%;
+	font-style: italic;
+}
+
+.commentaire .retourCom {
+	padding: 5px;
+}
+
+.commentaire textarea.contenuCom {
+	padding: 10px;
+	margin: 5px;
+}
+
+.commentaire .posterCom {
+	margin: 5px 0px 10px 7px;
+	text-align:center;
+	padding: 5px;
+	width: 75px;
+	border:1px solid black;
+	cursor: pointer;
+}
+
+.blockCom .nbComs, .blockCom .newCom {
+	float:right;
+	display:block;
+	border: 1px solid black;
+	padding: 5px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.blockCom .nbComs:hover {
+}
+
+.commentaire .pseudoCom {
+	padding: 3px 0px 0px 5px
+}
+
+.commentaire .pseudoCom b {
+	font-size:105%;
+}
+
+.commentaire .contenuCom {
+	padding: 2px 0px 2px 10px
+}
+
+.navigationCommentaire {
+	text-align:center;	
+	margin-top: 15px;
+}
+
+.navigationCommentaire li {
+	display: inline;
+	padding: 0 14px;
+	line-height: 36px;
+	float:left;
+	
+}
+
+.navigationCommentaire li.active, .navigationCommentaire li:hover {
+
+	cursor: pointer;
+	border: 1px solid black;
+}
+
+.navigationCommentaire li.active,.navigationCommentaire li.disabled{
+	cursor: default;
+}
+
+.navigationCommentaire li.suiv {
+	padding-right: 0px;
+	margin-right: 0px;
+}
+
+.topic .archivetopic {
+	cursor: pointer;
+	color: gray;
+	font-size: 80%;
+}
+
+.topic .contenuBrut {
+	word-wrap: break-word;
+}
+
+.navigationCommentaire ul {
+	height: 36px;
+	display: inline-block;
+	list-style: none;
+	border: 1px solid black;
+
+}
+
+.newTopic {
+	margin: 5px;
+}
+
+#contenuNewTopic textarea, .contenuBrut textarea {
+	width: 70%;
+	margin: 10px;
+}
+
+.commentaire .date {
+	float: right; 
+	font-style: italic;
+}
+
+.commentaire .pseudo {
+	font-weight: bold;
+	font-size: 110%;
+	margin-bottom: 10px;
+}
+
+.commentaire {
+	padding: 5px;
+}
+
+
