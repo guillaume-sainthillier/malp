@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Les Mots à la Pelle</title>
+    <title>Malp</title>
   </head>
 
   <body>
@@ -16,9 +16,9 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a id="forkme_banner" href="https://github.com/guillaume-sainthillier/malp">Projet GitHub</a>
+          <a id="forkme_banner" href="https://github.com/guillaume-sainthillier/malp">View on GitHub</a>
 
-          <h1 id="project_title">Les Mots à la Pelle</h1>
+          <h1 id="project_title">Malp</h1>
           <h2 id="project_tagline"> Les Mots à La Pelle sont nés de 4 volontés individuelles désirant œuvrer de manière collective dans le champ de la langue et de l’écriture. </h2>
 
             <section id="downloads">
@@ -31,42 +31,45 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>
-<a name="d%C3%A9ploiement" class="anchor" href="#d%C3%A9ploiement"><span class="octicon octicon-link"></span></a>Déploiement</h3>
+        <h2>
+<a name="r%C3%A9cup%C3%A9ration" class="anchor" href="#r%C3%A9cup%C3%A9ration"><span class="octicon octicon-link"></span></a>Récupération</h2>
 
-<p>Pour déployer l'application, veuillez suivre ces indications:</p>
+<p>Si vous possédez <a href="http://git-scm.com/downloads">Git</a>, tapez dans un invité de commande:</p>
 
 <pre><code>$ cd path/to/www
 $ git clone https://github.com/guillaume-sainthillier/malp.git
 </code></pre>
 
-<h3>
-<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h3>
+<p>Si vous ne possédez pas Git, téléchargez le projet au format Zip ou Tar.gz, et extrayez le dans le dossier www de votre serveur apache.</p>
 
-<p>Adaptez le fichier <strong>dyn/database.inc.php</strong> à la configuration de votre serveur.<br>
+<h2>
+<a name="d%C3%A9ploiement" class="anchor" href="#d%C3%A9ploiement"><span class="octicon octicon-link"></span></a>Déploiement</h2>
+
+<p>Adaptez la variable $infos dans le fichier <strong>dyn/database.inc.php</strong> suivant la configuration de votre serveur.<br>
 Importez le fichier <strong>mots_a_la_pelle.sql</strong> dans votre base de données.<br></p>
 
-<h3>
-<a name="d%C3%A9pendances-serveur" class="anchor" href="#d%C3%A9pendances-serveur"><span class="octicon octicon-link"></span></a>Dépendances Serveur</h3>
+<h2>
+<a name="d%C3%A9ploiement-du-websocket" class="anchor" href="#d%C3%A9ploiement-du-websocket"><span class="octicon octicon-link"></span></a>Déploiement du WebSocket</h2>
 
-<p>Le module <strong>mod_rewrite.so</strong> doit être actif dans la configuration d'apache.<br>
-L'extension <strong>php_socket</strong> doit être disponible.<br>
-Le port <strong>9013</strong> doit également être ouvert et disponible.<br></p>
-
-<h3>
-<a name="d%C3%A9ploiement-du-websocket" class="anchor" href="#d%C3%A9ploiement-du-websocket"><span class="octicon octicon-link"></span></a>Déploiement du WebSocket</h3>
-
-<p>Pour lancer le WebSocket, ça se passe par la ligne de commande: </p>
+<p>Pour lancer le WebSocket, tapez dans un invité de commande: </p>
 
 <pre><code>$ path/to/php php path/to/site/socket/serveur.php
 </code></pre>
+
+<h2>
+<a name="d%C3%A9pendances-serveur" class="anchor" href="#d%C3%A9pendances-serveur"><span class="octicon octicon-link"></span></a>Dépendances Serveur</h2>
+
+<p>Le module <strong>mod_rewrite.so</strong> doit être actif dans la configuration d'apache.<br>
+L'extension <strong>php_socket</strong> doit être disponible.<br>
+Le port <strong>9013</strong> doit également être ouvert et disponible sur votre réseau.<br></p>
       </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">Projet maintenu par <a href="https://github.com/guillaume-sainthillier">Guillaume Sainthillier</a></p>
+        <p class="copyright">Malp maintained by <a href="https://github.com/guillaume-sainthillier">guillaume-sainthillier</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
 
