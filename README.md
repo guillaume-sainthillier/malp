@@ -10,4 +10,4 @@ Les Mots à la Pelle
 
  Pour plus d'informations, l'association possède son site: http://lesmotsalapelle.wordpress.com/
  
- Retrouvez la procédure d'installation via l'adresse http://guillaume-sainthillier.github.io/malp/
+ Retrouvez la procédure d'installation de l'application sur http://guillaume-sainthillier.github.io/malp/
