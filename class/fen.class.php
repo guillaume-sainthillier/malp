@@ -64,6 +64,9 @@ class fen
 		$root = "/".preg_replace("#^".$_SERVER['DOCUMENT_ROOT']."#i","",$_SERVER['SCRIPT_FILENAME']);
 		$root = preg_replace("#(.*)/([^/]+)/([^/]+)$#","$1/",$root);
 		
+		if (strtoupper(substr(PHP_OS, 0, 3)) !== 'WIN')
+			$root = substr($root,1);
+			
 		$this->root = $root;
 
 		if(! $this->verifDroits() )
