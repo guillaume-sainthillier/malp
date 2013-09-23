@@ -106,15 +106,15 @@ class fen
 				<meta http-equiv=\"Content-Language\" content=\"fr\" />
 				<title>".($this->nomSite)." - ".($this->titre)."</title>
 				<link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"../img/favicon.ico\" />
-				<link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"../css/".$this->theme."/jQuery-ui-1.10.0.min.css\" />
+				<link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"../css/".$this->theme."/jquery-ui-1.10.0.min.css\" />
 				<link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"../css/style.css\" />";
 				foreach($this->libCss as $css)
 					echo "<link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"../css/".$css."\" />";
 				
 				
-				echo "<script type=\"text/javascript\" src=\"../js/jQuery-1.8.3.js\" ></script>
-				<script type=\"text/javascript\" src=\"../js/jQuery-ui-1.10.0.min.js\" ></script>
-				<script type=\"text/javascript\" src=\"../js/jQuery.qtip-1.0.0-rc3.min.js\" ></script>
+				echo "<script type=\"text/javascript\" src=\"../js/jquery-1.8.3.js\" ></script>
+				<script type=\"text/javascript\" src=\"../js/jquery-ui-1.10.0.min.js\" ></script>
+				<script type=\"text/javascript\" src=\"../js/jquery.qtip-1.0.0-rc3.min.js\" ></script>
 				<script type=\"text/javascript\" src=\"../js/jquery.ui.datepicker-fr.js\" ></script>
 				<script type=\"text/javascript\" >site_root = \"".substr($this->root,0,-1)."\";</script>
 				<script type=\"text/javascript\" src=\"../js/scripts.js\" ></script>";
