@@ -10,15 +10,12 @@ L'application permet, en outre, de:
 
 
 ## Démo
-==
 Une démonstration en ligne du site est disponible sur http://malp.sainthillier.fr
 
 
 ## Installation
-==
 Retrouvez la procédure d'installation de l'application sur http://guillaume-sainthillier.github.io/malp/
 
 
 ## Informations
-==
 Pour plus d'informations, l'association possède son site: http://lesmotsalapelle.wordpress.com/
